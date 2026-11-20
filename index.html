@@ -21,6 +21,10 @@
     th { background: #EEF3F1; color: var(--dark); font-size: 14px; }
     tr:last-child td { border-bottom: 0; }
     a { color: var(--accent); }
+    details { margin-top: 6px; font-size: 14px; color: var(--muted); }
+    details ul { margin: 6px 0 0; padding-left: 18px; }
+    summary { cursor: pointer; color: var(--accent); }
+    .wait { color: var(--muted); font-style: italic; }
     footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
   </style>
 </head>
@@ -32,21 +36,75 @@
     </div>
   </header>
   <main>
-    <p>This page is the index of our Testing Evidence Pack. Each row is one item. It says what the item covers, who made it and where the file is.</p>
+    <p>This page is the index of our Testing Evidence Pack. Each row is one PDF. It says who made it and what it covers. Open “items” to see the list of evidence items in that PDF.</p>
     <div class="note">The files are in the Teams files of the group. You need a GCU sign-in to open the links.</div>
 
     <h2>Index</h2>
     <div class="scroll">
       <table>
         <thead>
-          <tr><th>Item</th><th>What it covers</th><th>Made by</th><th>File</th></tr>
+          <tr><th>Section</th><th>Made by</th><th>What it covers</th><th>PDF</th></tr>
         </thead>
         <tbody>
           <tr>
-            <td>Test link</td>
-            <td>First link from this page to a file in Teams. It checks that the link opens for the group.</td>
+            <td>2</td>
+            <td>Ruslan Novosad</td>
+            <td>Windows client<details><summary>9 items</summary><ul><li>2.1 State classification and report contract</li><li>2.2 Device identity regression</li><li>2.3 Live monitoring and the packaged tray client</li><li>2.4 Client starts at sign-in</li><li>2.5 Restart after a forced exit</li><li>2.6 Client stays stopped when autostart is disabled</li><li>2.7 Only one running copy</li><li>2.8 Memory of the tray client</li><li>2.9 24-hour team test procedure</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
             <td>Dariusz Jaroch</td>
-            <td><a href="https://caledonianac.sharepoint.com/:i:/r/sites/GroupProject26_27-Group122/Shared%20Documents/dariusz-logbook-evidence/2026-10-20-general-posts-subprojects-EWS_WEB-1-and-api-tasks.png?d=w3fca1cb49fba4b98b96f6fb3f72a7fcb&amp;csf=1&amp;web=1&amp;e=4v7aAE">2026-10-20-general-posts-subprojects-EWS_WEB-1-and-api-tasks.png</a></td>
+            <td>CI, staging environment and data, admin API, dashboard data, energy prototype<details><summary>13 items</summary><ul><li>3.1 Report schema check and CI on every pull request</li><li>3.2 Dashboard history, labels, settings and installer components</li><li>3.3 Computer editing, name rule and rooms API</li><li>3.4 Staging dashboard built with real data</li><li>3.5 History of a staging laptop</li><li>3.6 Save settings on staging</li><li>3.7 Login on the dev dashboard with the staging API</li><li>3.8 Admin input validation and session handling</li><li>3.9 Energy measurement prototype and Windows energy suite</li><li>3.10 Independent checks of other members’ work</li><li>3.11 Staging environment and automatic deploy</li><li>3.12 Dashboard test setup with Vitest</li><li>3.13 Nesting check for the code rule</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Kevin Little</td>
+            <td>Database and energy rules<details><summary>3 items</summary><ul><li>4.1 Database tables and seeding</li><li>4.2 Energy rates and energy calculation</li><li>4.3 Database-backed smoke tests</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Thomas Simpson</td>
+            <td>Client endpoints on the database<details><summary>1 items</summary><ul><li>5.1 Registration, settings and ping use the database</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Jason Holmes</td>
+            <td>Routing and database documentation<details><summary>3 items</summary><ul><li>6.1 Plain-path routing</li><li>6.2 Legacy demo with plain paths</li><li>6.3 Database section for D5 and ER diagram</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Zahid Hasan</td>
+            <td>API endpoints, dashboard data and admin settings<details><summary>5 items</summary><ul><li>7.1 Loading, error and empty states</li><li>7.2 Authenticated client endpoints</li><li>7.3 History and dashboard database reads</li><li>7.4 Devices and summary from the real API</li><li>7.5 Admin settings API</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Aqdas Abdulquassim</td>
+            <td>Smoke tests, login, Energy page, design audit<details><summary>6 items</summary><ul><li>8.1 Login page and route guard</li><li>8.2 Staging smoke tests</li><li>8.3 Real login and logout API</li><li>8.4 Energy Usage page</li><li>8.5 Pages against the mock-up and style guide</li><li>8.6 Computer editing in the dashboard</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Charldon Noel</td>
+            <td>Responsive layout, history page, Settings controls<details><summary>4 items</summary><ul><li>9.1 Responsive layout</li><li>9.2 History page on sample data</li><li>9.3 History page in the browser</li><li>9.4 Settings controls</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Team</td>
+            <td>Team logs and gaps: bug log, test run log, coverage gaps<details><summary>5 items</summary><ul><li>10.1 Re-run of the current dev branch</li><li>10.2 Bug and issue log</li><li>10.3 Test run log</li><li>10.4 Open pull requests</li><li>10.5 Coverage gaps</li></ul></details></td>
+            <td><span class="wait">Link not added yet</span></td>
+          </tr>
+          <tr>
+            <td>S</td>
+            <td>Team</td>
+            <td>Testing Summary (3 pages)</td>
+            <td><span class="wait">Link not added yet</span></td>
           </tr>
         </tbody>
       </table>
