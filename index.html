@@ -3,117 +3,145 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EcoWattSense Testing Evidence</title>
+  <title>EcoWattSense Testing Evidence Pack</title>
   <style>
-    :root { --dark: #133931; --accent: #255E4D; --leaf: #50B54E; --bg: #F7F9FB; --line: #DDE4EA; --text: #1B2A27; --muted: #5B6B67; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 Roboto, -apple-system, "Segoe UI", Arial, sans-serif; }
-    header { background: var(--dark); color: #fff; padding: 28px 16px; }
-    header h1 { margin: 0 0 4px; font-size: 26px; }
-    header p { margin: 0; color: #CFE3DC; }
-    main { max-width: 1000px; margin: 0 auto; padding: 24px 16px 48px; }
-    .wrap { max-width: 1000px; margin: 0 auto; }
-    h2 { font-size: 20px; margin: 28px 0 10px; color: var(--dark); }
-    .note { background: #fff; border-left: 4px solid var(--leaf); padding: 12px 14px; margin: 16px 0; }
-    .scroll { overflow-x: auto; background: #fff; border: 1px solid var(--line); border-radius: 6px; }
-    table { border-collapse: collapse; width: 100%; min-width: 640px; }
-    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
-    th { background: #EEF3F1; color: var(--dark); font-size: 14px; }
-    tr:last-child td { border-bottom: 0; }
-    a { color: var(--accent); }
-    details { margin-top: 6px; font-size: 14px; color: var(--muted); }
-    details ul { margin: 6px 0 0; padding-left: 18px; }
-    summary { cursor: pointer; color: var(--accent); }
-    .wait { color: var(--muted); font-style: italic; }
-    footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
+    body { margin: 0; background: #E9ECEF; color: #000; font: 15px/1.4 Calibri, Carlito, "Segoe UI", Arial, sans-serif; }
+    .page { max-width: 860px; margin: 24px auto; background: #fff; padding: 40px 56px 48px; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18); }
+    .running { font-size: 11px; margin: 0 0 14px; }
+    h1 { font-size: 30px; margin: 0 0 6px; }
+    .sub { margin: 0 0 14px; }
+    h2 { font-size: 22px; margin: 22px 0 8px; }
+    h3 { font-size: 17px; margin: 20px 0 8px; }
+    p { margin: 0 0 8px; }
+    .section { margin: 0 0 10px; }
+    .section .head { font-weight: bold; margin: 10px 0 2px; }
+    .section ul { list-style: none; margin: 0; padding: 0; }
+    .section li { margin: 0; }
+    .pdf { font-weight: normal; }
+    .wait { color: #6B7280; font-style: italic; }
+    a { color: #0563C1; }
+    .foot { font-size: 11px; text-align: right; margin: 28px 0 0; }
+    @media (max-width: 640px) { .page { margin: 0; padding: 20px 16px 28px; box-shadow: none; } h1 { font-size: 24px; } }
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <h1>EcoWattSense Testing Evidence</h1>
-      <p>Group 12 (Sector 12) | Group Project M3W226703 | Week 10 deliverable</p>
-    </div>
-  </header>
-  <main>
-    <p>This page is the index of our Testing Evidence Pack. Each row is one PDF. It says who made it and what it covers. Open “items” to see the list of evidence items in that PDF.</p>
-    <div class="note">The files are in the Teams files of the group. You need a GCU sign-in to open the links.</div>
+  <div class="page">
+    <p class="running">EcoWattSense  /  Group 12  /  Week 10</p>
+    <h1>EcoWattSense Testing Evidence Pack</h1>
+    <p class="sub">Glasgow Caledonian University | Group Project | Index page | 20 November 2026</p>
 
-    <h2>Index</h2>
-    <div class="scroll">
-      <table>
-        <thead>
-          <tr><th>Section</th><th>Made by</th><th>What it covers</th><th>PDF</th></tr>
-        </thead>
-        <tbody>
-          <tr data-section="2">
-            <td>2</td>
-            <td>Ruslan Novosad</td>
-            <td>Windows client<details><summary>9 items</summary><ul><li>2.1 State classification and report contract</li><li>2.2 Device identity regression</li><li>2.3 Live monitoring and the packaged tray client</li><li>2.4 Client starts at sign-in</li><li>2.5 Restart after a forced exit</li><li>2.6 Client stays stopped when autostart is disabled</li><li>2.7 Only one running copy</li><li>2.8 Memory of the tray client</li><li>2.9 24-hour team test procedure</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="3">
-            <td>3</td>
-            <td>Dariusz Jaroch</td>
-            <td>CI, staging environment and data, admin API, dashboard data, energy prototype<details><summary>13 items</summary><ul><li>3.1 Report schema check and CI on every pull request</li><li>3.2 Dashboard history, labels, settings and installer components</li><li>3.3 Computer editing, name rule and rooms API</li><li>3.4 Staging dashboard built with real data</li><li>3.5 History of a staging laptop</li><li>3.6 Save settings on staging</li><li>3.7 Login on the dev dashboard with the staging API</li><li>3.8 Admin input validation and session handling</li><li>3.9 Energy measurement prototype and Windows energy suite</li><li>3.10 Independent checks of other members’ work</li><li>3.11 Staging environment and automatic deploy</li><li>3.12 Dashboard test setup with Vitest</li><li>3.13 Nesting check for the code rule</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="4">
-            <td>4</td>
-            <td>Kevin Little</td>
-            <td>Database and energy rules<details><summary>3 items</summary><ul><li>4.1 Database tables and seeding</li><li>4.2 Energy rates and energy calculation</li><li>4.3 Database-backed smoke tests</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="5">
-            <td>5</td>
-            <td>Thomas Simpson</td>
-            <td>Client endpoints on the database<details><summary>1 items</summary><ul><li>5.1 Registration, settings and ping use the database</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="6">
-            <td>6</td>
-            <td>Jason Holmes</td>
-            <td>Routing and database documentation<details><summary>3 items</summary><ul><li>6.1 Plain-path routing</li><li>6.2 Legacy demo with plain paths</li><li>6.3 Database section for D5 and ER diagram</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="7">
-            <td>7</td>
-            <td>Zahid Hasan</td>
-            <td>API endpoints, dashboard data and admin settings<details><summary>5 items</summary><ul><li>7.1 Loading, error and empty states</li><li>7.2 Authenticated client endpoints</li><li>7.3 History and dashboard database reads</li><li>7.4 Devices and summary from the real API</li><li>7.5 Admin settings API</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="8">
-            <td>8</td>
-            <td>Aqdas Abdulquassim</td>
-            <td>Smoke tests, login, Energy page, design audit<details><summary>6 items</summary><ul><li>8.1 Login page and route guard</li><li>8.2 Staging smoke tests</li><li>8.3 Real login and logout API</li><li>8.4 Energy Usage page</li><li>8.5 Pages against the mock-up and style guide</li><li>8.6 Computer editing in the dashboard</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="9">
-            <td>9</td>
-            <td>Charldon Noel</td>
-            <td>Responsive layout, history page, Settings controls<details><summary>4 items</summary><ul><li>9.1 Responsive layout</li><li>9.2 History page on sample data</li><li>9.3 History page in the browser</li><li>9.4 Settings controls</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="10">
-            <td>10</td>
-            <td>Team</td>
-            <td>Team logs and gaps: bug log, test run log, coverage gaps<details><summary>5 items</summary><ul><li>10.1 Re-run of the current dev branch</li><li>10.2 Bug and issue log</li><li>10.3 Test run log</li><li>10.4 Open pull requests</li><li>10.5 Coverage gaps</li></ul></details></td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-          <tr data-section="S">
-            <td>S</td>
-            <td>Team</td>
-            <td>Testing Summary (3 pages)</td>
-            <td class="pdf"><span class="wait">Link not added yet</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <h2>Section 1&nbsp; Overview and index</h2>
+    <p>This pack gathers the testing evidence the team produced during the project. Sections 2 to 9 belong to individual members. Section 10 holds team-wide logs. Each section is one PDF. Evidence sits in the section of the person who produced or ran it.</p>
+    <p>Each member checks and completes their own section. The Testing Summary uses the item numbers below.</p>
 
-    <footer>
-      <p>Code and tests: <a href="https://github.com/GCU-Sector-12/ecowattsense">GCU-Sector-12/ecowattsense</a>. Last change: 20 November 2026.</p>
-    </footer>
-  </main>
+    <h3>Index</h3>
+      <div class="section" data-section="2">
+        <p class="head">Section 2 – Ruslan Novosad – Windows client – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>2.1 State classification and report contract (unit)</li>
+        <li>2.2 Device identity regression (unit, regression)</li>
+        <li>2.3 Live monitoring and the packaged tray client (integration)</li>
+        <li>2.4 Client starts at sign-in (manual)</li>
+        <li>2.5 Restart after a forced exit (manual)</li>
+        <li>2.6 Client stays stopped when autostart is disabled (manual)</li>
+        <li>2.7 Only one running copy (manual, unit)</li>
+        <li>2.8 Memory of the tray client (performance)</li>
+        <li>2.9 24-hour team test procedure (TST-4) (planned)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="3">
+        <p class="head">Section 3 – Dariusz Jaroch – CI, staging environment and data, admin API, dashboard data, energy prototype – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>3.1 Report schema check and CI on every pull request (unit, CI)</li>
+        <li>3.2 Dashboard history, labels, settings and installer components (component)</li>
+        <li>3.3 Computer editing, name rule and rooms API (API)</li>
+        <li>3.4 Staging dashboard built with real data (integration)</li>
+        <li>3.5 History of a staging laptop (live check)</li>
+        <li>3.6 Save settings on staging (live check)</li>
+        <li>3.7 Login on the dev dashboard with the staging API (live check, regression)</li>
+        <li>3.8 Admin input validation and session handling (security, validation)</li>
+        <li>3.9 Energy measurement prototype and Windows energy suite (exploratory)</li>
+        <li>3.10 Independent checks of other members’ work (review)</li>
+        <li>3.11 Staging environment and automatic deploy (environment, CI)</li>
+        <li>3.12 Dashboard test setup with Vitest (unit, component, integration)</li>
+        <li>3.13 Nesting check for the code rule (static check, CI)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="4">
+        <p class="head">Section 4 – Kevin Little – Database and energy rules – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>4.1 Database tables and seeding (unit)</li>
+        <li>4.2 Energy rates and energy calculation (unit)</li>
+        <li>4.3 Database-backed smoke tests (integration)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="5">
+        <p class="head">Section 5 – Thomas Simpson – Client endpoints on the database – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>5.1 Registration, settings and ping use the database (API)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="6">
+        <p class="head">Section 6 – Jason Holmes – Routing and database documentation – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>6.1 Plain-path routing (component, integration)</li>
+        <li>6.2 Legacy demo with plain paths (manual)</li>
+        <li>6.3 Database section for D5 and ER diagram (documentation)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="7">
+        <p class="head">Section 7 – Zahid Hasan – API endpoints, dashboard data and admin settings – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>7.1 Loading, error and empty states (component)</li>
+        <li>7.2 Authenticated client endpoints (API, security)</li>
+        <li>7.3 History and dashboard database reads (integration)</li>
+        <li>7.4 Devices and summary from the real API (integration)</li>
+        <li>7.5 Admin settings API (API, validation)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="8">
+        <p class="head">Section 8 – Aqdas Abdulquassim – Smoke tests, login, Energy page, design audit – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>8.1 Login page and route guard (component)</li>
+        <li>8.2 Staging smoke tests (integration)</li>
+        <li>8.3 Real login and logout API (integration, security)</li>
+        <li>8.4 Energy Usage page (component)</li>
+        <li>8.5 Pages against the mock-up and style guide (manual)</li>
+        <li>8.6 Computer editing in the dashboard (integration)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="9">
+        <p class="head">Section 9 – Charldon Noel – Responsive layout, history page, Settings controls – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>9.1 Responsive layout (component)</li>
+        <li>9.2 History page on sample data (component)</li>
+        <li>9.3 History page in the browser (manual)</li>
+        <li>9.4 Settings controls (component, manual)</li>
+        </ul>
+      </div>
+      <div class="section" data-section="10">
+        <p class="head">Section 10 – Team-wide – logs and gaps – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+        <ul>
+        <li>10.1 Re-run of the current dev branch (regression)</li>
+        <li>10.2 Bug and issue log</li>
+        <li>10.3 Test run log</li>
+        <li>10.4 Open pull requests</li>
+        <li>10.5 Coverage gaps</li>
+        <li>10.6 Sources</li>
+        </ul>
+      </div>
+      <div class="section" data-section="S">
+        <p class="head">Testing Summary – Team – 3 pages – <span class="pdf"><span class="wait">PDF not added yet</span></span></p>
+      </div>
+
+    <h3>Access</h3>
+    <p>The GitHub repository is public: <a href="https://github.com/GCU-Sector-12/ecowattsense">GCU-Sector-12/ecowattsense</a>.</p>
+    <p>The PDF files are in the Teams files of the group. You need a GCU sign-in to open them.</p>
+    <p>Both items must be available to the module team by Monday 23 November 2026, 09:00.</p>
+
+    <p class="foot">Testing evidence pack  /  index</p>
+  </div>
   <script>
     // Read links.txt ("section = link" per line) and return an object: section -> link.
     function parseLinks(text) {
@@ -129,7 +157,7 @@
 
     // Put an "Open PDF" link into every row that has a link in links.txt.
     function showLinks(links) {
-      document.querySelectorAll('tr[data-section]').forEach(function (row) {
+      document.querySelectorAll('[data-section]').forEach(function (row) {
         var link = links[row.getAttribute('data-section')];
         if (!link) { return; }
         var a = document.createElement('a');
