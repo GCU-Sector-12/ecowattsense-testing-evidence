@@ -12,4 +12,12 @@ The page is only an index. It has one row per team member. Each row links to one
 1. Save your section of the evidence pack as a PDF.
 2. Upload the PDF to the Teams files of the group.
 3. Copy the link to the file (Share, Copy link).
-4. Send the link to Dariusz on Discord. He puts it in your row.
+4. Send the link to Dariusz on Discord, or put it in `links.txt` yourself.
+
+## Where the links live
+
+All links are in one file: `links.txt`. It has one line per section, for example:
+
+    3 = https://caledonianac.sharepoint.com/...
+
+To add or change a link: open `links.txt` on GitHub, click the pencil, paste the link after the equals sign and click "Commit changes". The page shows the link about one minute later. Nobody has to edit `index.html`.
