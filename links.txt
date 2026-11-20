@@ -1,15 +1,15 @@
-# Links to the PDF files in Teams.
+# Links to the file files in Teams.
 # One line per section: section = link
 # Paste the link after the equals sign and save. The page shows it about one minute later.
-# Leave a line empty while there is no PDF yet.
+# Leave a line empty while there is no file yet.
 
-2 =
-3 =https://caledonianac.sharepoint.com/:b:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/EcoWattSense%20-%20Testing%20Evidence%20Pack%20Section%203%20Dariusz%20Jaroch%20v0.1.pdf?d=w8308bb7b15684841828e894d32c8316e&csf=1&web=1&e=KIdc7a
-4 =
-5 =
-6 =
-7 =
-8 =
-9 =
-10 =
+2 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2002%20-%20Ruslan%20Novosad%20-%20Windows%20client.docx?d=w2f35cc69998e41e9b0a5eaf13acb27c2&csf=1&web=1&e=TM2fGg
+3 = https://caledonianac.sharepoint.com/:b:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/EcoWattSense%20-%20Testing%20Evidence%20Pack%20Section%203%20Dariusz%20Jaroch%20v0.1.pdf?d=w8308bb7b15684841828e894d32c8316e&csf=1&web=1&e=KIdc7a
+4 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2004%20-%20Kevin%20Little%20-%20Database%20and%20energy%20rules.docx?d=w6fde4797e1634363bbcdc0224c1c6703&csf=1&web=1&e=jOf6vk
+5 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2005%20-%20Thomas%20Simpson%20-%20Client%20endpoints%20on%20the%20database.docx?d=wfeac8dd42ca24d85888303377ae1183d&csf=1&web=1&e=9xkw8u
+6 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2006%20-%20Jason%20Holmes%20-%20Routing%20and%20database%20documentation.docx?d=w8df54c1adec84e669713f58b5dd96c06&csf=1&web=1&e=I3WE5y
+7 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2007%20-%20Zahid%20Hasan%20-%20API%20endpoints%2C%20dashboard%20data%20and%20admin%20settings.docx?d=w177faa69c1104df182e3ef6cda59ad01&csf=1&web=1&e=Emyt9y
+8 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2008%20-%20Aqdas%20Abdulquassim%20-%20Smoke%20tests%2C%20login%2C%20Energy%20page%2C%20design%20audit.docx?d=wea13265c4c5e453381d43348856d9ec7&csf=1&web=1&e=HmjZz6
+9 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2009%20-%20Charldon%20Noel%20-%20Responsive%20layout%2C%20history%20page%2C%20Settings%20controls.docx?d=w61c805a615d147dc91bb51059a1a4d01&csf=1&web=1&e=l91gAi
+10 = https://caledonianac.sharepoint.com/:w:/r/sites/GroupProject26_27-Group122/Shared%20Documents/test/Section%2010%20-%20Team%20-%20logs%20and%20gaps.docx?d=w63b160b876a346bbab8fd6a852ce1554&csf=1&web=1&e=Uhgrp2
 S =
